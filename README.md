@@ -1,5 +1,5 @@
 # admin-nav
 admin nav
-https://jfffrsn.github.io/admin-nav/
+https://jfersonrei.github.io/adminnav/
 
-setting up the admin navigation before doing it in react
+setting up the admin navigation
