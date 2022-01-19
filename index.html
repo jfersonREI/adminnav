@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="echo360 Self publishing admin">
+    <title>admin nav</title>
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="app-topbar" role="banner">
+        <a id="skip-navigation" class="skipnav" href="#content">Skip Navigation</a>
+        <div class="app-top-header">
+            <button class="app-topbar-navicon" aria-label="Guide" aria-pressed="false">
+                <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                    <path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" />
+                </svg>
+            </button>
+            <div class="app-topbar-logo-container">
+                <img src="img/admin-logo.svg" alt="Admin name" class="app-topbar-logo" />
+            </div>
+            <!-- /.app-topbar-logo-container -->
+
+            <div class="app-topbar-menu">
+
+                <div class="app-topbar-search">
+                    <button class="app-topbar-search-btn" aria-label="Search" aria-pressed="false">
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" />
+                        </svg>
+                    </button>
+                </div>
+                <!-- /.app-topbar-search -->
+
+                <div class="app-topbar-alerts">
+                    <button class="app-topbar-alerts-btn" aria-label="Alerts" aria-pressed="false">
+                        <span class="app-topbar-alerts-counter"></span>
+                        <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24">
+                            <path
+                                d="M12 22a2 2 0 002-2h-4a2 2 0 002 2zm6-6v-5c0-3.07-1.64-5.64-4.5-6.32V4a1.5 1.5 0 00-3 0v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1z" />
+                        </svg>
+                    </button>
+                </div>
+                <!-- /.app-topbar-alerts -->
+
+
+                <div class="app-topbar-user">
+                    <button class="app-topbar-avatar-btn">
+                        <span class="app-topbar-avatar">
+                            <img src="https://i.pravatar.cc/300" alt="User name" class="app-topbar-avatar-img">
+                        </span>
+
+                    </button>
+                </div>
+                <!-- /.app-topbar-user -->
+            </div>
+            <!-- /.app-topbar-menu -->
+        </div>
+        <!-- /.app-top-header -->
+    </header>
+    <!-- /.app-topbar -->
+
+    <div class="app-mini-guide" hidden>
+        <div class="app-mini-guide-nav-section">
+            <nav class="app-mini-guide-nav" role="navigation" aria-label="Main">
+
+                <div class="app-mini-guide-nav-item">
+                    <a href="#" class="app-mini-guide-nav-link active">
+                        <span class="app-mini-guide-nav-icon active">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" />
+                            </svg>
+                        </span>
+                        <span class="app-mini-guide-nav-txt">Home</span>
+                    </a>
+                    <!-- /.app-mini-guide-nav-link -->
+                </div>
+                <!-- /.app-mini-guide-nav-item -->
+
+                <div class="app-mini-guide-nav-item">
+                    <a href="#" class="app-mini-guide-nav-link">
+                        <span class="app-mini-guide-nav-icon">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M19 3H5C3.89 3 3 3.89 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.89 20.1 3 19 3M10 16V8L15 12" />
+                            </svg>
+                        </span>
+                        <span class="app-mini-guide-nav-txt">Presentations</span>
+                    </a>
+                    <!-- /.app-mini-guide-nav-link -->
+                </div>
+                <!-- /.app-mini-guide-nav-item -->
+
+                <div class="app-mini-guide-nav-item">
+                    <a href="#" class="app-mini-guide-nav-link">
+                        <span class="app-mini-guide-nav-icon">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M10,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V8C22,6.89 21.1,6 20,6H12L10,4Z" />
+                            </svg>
+                        </span>
+                        <span class="app-mini-guide-nav-txt">Collections</span>
+                    </a>
+                    <!-- /.app-mini-guide-nav-link -->
+                </div>
+                <!-- /.app-mini-guide-nav-item -->
+
+                <div class="app-mini-guide-nav-item">
+                    <a href="#" class="app-mini-guide-nav-link">
+                        <span class="app-mini-guide-nav-icon">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M12,3L1,9L12,15L21,10.09V17H23V9M5,13.18V17.18L12,21L19,17.18V13.18L12,17L5,13.18Z" />
+                            </svg>
+                        </span>
+                        <span class="app-mini-guide-nav-txt">Courses</span>
+                    </a>
+                    <!-- /.app-mini-guide-nav-link -->
+                </div>
+                <!-- /.app-mini-guide-nav-item -->
+            </nav>
+            <!-- /.app-mini-guide-nav -->
+        </div>
+        <!-- /.app-mini-guide-nav-section -->
+    </div>
+    <!-- /.app-mini-guide -->
+
+    <div class="app-sidebar">
+        <div class="app-scrim"></div>
+        <!-- /.app-scrim -->
+
+        <div class="app-sidebar-container">
+            <div class="app-guide-container">
+                <div class="app-guide-spacer"></div>
+                <!-- /.app-guide-spacer -->
+
+                <div class="app-guide-content">
+                    <div class="app-guide-header">
+                        <button class="app-guide-navicon" aria-label="Guide" aria-pressed="true">
+                            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" />
+                            </svg>
+                        </button>
+                        <div class="app-guide-logo-container">
+                            <img src="img/admin-logo.svg" alt="Admin name" class="app-guide-logo" />
+                        </div>
+                    </div>
+                    <!-- /.app-guide-header -->
+
+                    <div class="app-guide-nav-section">
+                        <nav class="app-guide-nav" role="navigation" aria-label="Main">
+
+                            <div class="app-guide-nav-item">
+                                <a href="#" class="app-guide-nav-link active">
+                                    <span class="app-guide-nav-icon active">
+                                        <svg viewBox="0 0 24 24">
+                                            <path d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" />
+                                        </svg>
+                                    </span>
+                                    <span class="app-guide-nav-txt">Home</span>
+                                </a>
+                                <!-- /.app-guide-nav-link -->
+                            </div>
+                            <!-- /.app-guide-nav-item -->
+
+                            <div class="app-guide-nav-item">
+                                <a href="#" class="app-guide-nav-link">
+                                    <span class="app-guide-nav-icon">
+                                        <svg viewBox="0 0 24 24">
+                                            <path
+                                                d="M19 3H5C3.89 3 3 3.89 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.89 20.1 3 19 3M10 16V8L15 12" />
+                                        </svg>
+                                    </span>
+                                    <span class="app-guide-nav-txt">Presentations</span>
+                                </a>
+                                <!-- /.app-guide-nav-link -->
+                            </div>
+                            <!-- /.app-guide-nav-item -->
+
+                            <div class="app-guide-nav-item">
+                                <a href="#" class="app-guide-nav-link">
+                                    <span class="app-guide-nav-icon">
+                                        <svg viewBox="0 0 24 24">
+                                            <path
+                                                d="M10,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V8C22,6.89 21.1,6 20,6H12L10,4Z" />
+                                        </svg>
+                                    </span>
+                                    <span class="app-guide-nav-txt">Collections</span>
+                                </a>
+                                <!-- /.app-guide-nav-link -->
+                            </div>
+                            <!-- /.app-guide-nav-item -->
+
+                            <div class="app-guide-nav-item">
+                                <a href="#" class="app-guide-nav-link" aria-controls="course-subnav"
+                                    aria-expanded="false">
+                                    <span class="app-guide-nav-icon">
+                                        <svg viewBox="0 0 24 24">
+                                            <path
+                                                d="M12,3L1,9L12,15L21,10.09V17H23V9M5,13.18V17.18L12,21L19,17.18V13.18L12,17L5,13.18Z" />
+                                        </svg>
+                                    </span>
+                                    <span class="app-guide-nav-txt">Courses</span>
+                                    <span class="app-guide-nav-expander">
+                                        <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                                            <path fill="#ced4da"
+                                                d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+                                        </svg>
+                                    </span>
+                                </a>
+                                <!-- /.app-guide-nav-link -->
+
+
+                                <div class="app-guide-subnav" id="course-subnav" role="region" tabindex="-1">
+
+                                    <div class="app-guide-subnav-item">
+                                        <a href="" class="app-guide-subnav-link">Subnav link1</a>
+                                    </div><!-- /.app-guide-subnav-item -->
+
+                                    <div class="app-guide-subnav-item">
+                                        <a href="" class="app-guide-subnav-link">Subnav link2</a>
+                                    </div><!-- /.app-guide-subnav-item -->
+
+                                </div>
+                                <!-- /.app-guide-subnav -->
+
+
+                            </div>
+                            <!-- /.app-guide-nav-item -->
+                        </nav>
+                        <!-- /.app-guide-nav -->
+                    </div>
+                    <!-- /.app-guide-nav-section -->
+
+
+                </div>
+                <!-- /.app-guide-content -->
+            </div>
+            <!-- /.app-guide-container -->
+        </div>
+        <!-- /.app-sidebar-container -->
+    </div>
+    <!-- /.app-sidebar -->
+
+    <main class="app-main" role="main" id="content">
+        <div class="app-main-content">
+            <p>
+                <a href="#">link</a>
+                1Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint? Lorem ipsum dolor, sit amet
+                consectetur adipisicing elit. Quod, esse eveniet odio dolorem voluptas illo consequuntur modi corporis,
+                veniam tenetur, suscipit qui doloribus temporibus atque voluptatum! Dolore ad numquam tempore
+                repellendus laudantium iure consequatur iusto quas doloremque corrupti doloribus, quod corporis pariatur
+                temporibus sed cupiditate repellat accusamus incidunt excepturi. Corporis, itaque repellat nostrum ipsa
+                vel quae velit reiciendis aliquid in. Optio, dicta? Explicabo illum rem, temporibus quod quae ad. Unde
+                repellat eligendi nulla quidem nobis id, dolorem quas possimus ratione quos nemo nihil commodi similique
+                blanditiis sed facere veniam sequi aperiam, alias dolore. Mollitia aliquam nihil dolorem aut esse
+                inventore.
+            </p>
+            <p>
+                2Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sint?
+            </p>
+        </div>
+        <!-- /.app-main-content -->
+    </main>
+    <!-- /.app-main -->
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
