@@ -14,7 +14,6 @@
   position: relative;
 }
 .app-main-col {
-  background-color: fuschia;
   flex: 1;
   position: relative;
   display: flex;
