@@ -2,4 +2,5 @@
 admin nav
 https://jfersonrei.github.io/adminnav/
 
-setting up the admin navigation
+panel
+https://jfersonrei.github.io/adminnav/panel.html
